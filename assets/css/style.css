@@ -1,0 +1,439 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.ul {
+    display: flex;
+    padding: 0 100px 0 0;
+    position: fixed;
+   
+}
+
+.li{
+    padding: 30px  ;
+    list-style: none;
+    line-height: 20px;
+    
+}
+.a {
+    color: #ffff;
+    text-decoration: none;
+    font-size: 18px;
+ 
+}
+.a:hover{
+    color: #F1A600;
+}
+
+.header {
+    position: fixed;
+    background-color: #1F1D2C;
+    height: 80px;
+    width: 100%;
+    
+    
+}
+
+.main {
+    padding: 80px 0 0 0 ;
+    color: #ffff;
+}
+
+.main {
+    background-color: #1F1D2C;
+}
+
+.Nombre {
+    font-size: 150px;
+    font-weight: bold;
+    padding-left: 100px;
+    
+}
+
+.Subtitulo {
+    font-size: 50px;
+    padding-left: 100px;
+    
+}
+
+.fotoequis {
+    
+    padding-left: 550px;
+    top: -170px;
+    
+
+}
+.aos {
+    color: #F1A600;
+    font-size: 50px;
+    padding-left: 100px;
+
+}
+.dos{
+    font-size: 50px;
+    padding-left: 16px ;
+
+}
+
+.exp{
+    font-size: 50px;
+    padding-left: 100px;
+
+}
+
+.amarilloyblanco {
+    display:flex;
+}
+.linked {
+    position: absolute;
+    top: 500px;
+    left: 105px;
+    height: 70px;
+}
+
+.insta {
+    position: absolute;
+    top: 500px;
+    left: 200px;
+    height: 70px;
+}
+.twit {
+    position: absolute;
+    top: 500px;
+    left: 300px;
+    height: 70px;
+}
+.acercademi{
+    text-align: center;
+    background-color: #242635;
+    height: 500px;
+}
+
+.uvm {
+    margin-left: 30px;
+    margin-right: 200px;
+    position: relative;
+bottom: 4px;
+  
+}
+
+.acerca {
+    font-size: 50px;
+    font-weight: semibold;
+}
+
+.div-academlo { 
+    margin-left: 390px;
+    position: relative;
+    bottom: 50px;
+
+}
+
+.div-uvm {
+    margin-left: -330px;
+    position: relative;
+    bottom: 7px;
+}
+
+.Experiencia {
+    text-align: center;
+}
+.subtitulo2 {
+    font-size: 50px;
+}
+.amazon {
+    display: flex;
+    justify-content: center;
+}
+
+.amazon >* {
+    margin-right: 173px;
+}
+
+.textoacerca {
+    padding: 0 250px;
+    line-height: 25px;
+}
+
+.airbnb {
+    display: flex;
+    justify-content: center;  
+}
+.airbnb >*{
+    margin-right: 170px;
+}
+.google {
+    display: flex;
+    justify-content: center; 
+}
+.google >* {
+    margin-right: 155px;
+}
+
+.lineaamarilla {
+    position: absolute;
+    right: 250px;
+    top: 1500px;
+}
+
+.mishabilidades {
+    text-align: center;
+}
+.porcentaje {
+    color: #F1A600;
+    font-size: 50px;
+    margin-bottom: 25px;
+    position: relative;
+}
+.habilidad {
+    color: #ffff;
+    font-size: 30px;
+    padding-left: 50px;
+    
+}
+.porcentajes {
+    text-align: justify;
+    margin-left: 300px;
+    
+}
+.subtitulo3 {
+    font-size: 40px;
+    text-align: left;
+    margin-left: 300px;
+    position: relative;
+
+}
+
+.ecommerce {
+    background-color: #F1A600;
+    height: 380px;
+    width: 550px;
+    margin-left: 60px;
+}
+.app{
+    background-color:#242635;
+    height: 380px;
+    width: 550px;
+    margin-left: 600px;
+}
+
+.imagen2 {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.training {
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 30px;
+    margin-left: 30px;
+}
+.imagen1{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.skincare {
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 30px;
+}
+
+.writer {
+margin-left: 60px;
+background-color: #F1A600;
+width: 550px;
+height: 380px;
+}
+.imagen3 {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.personal {
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 30px;
+}
+
+.subtitulo4 {
+    font-size: 40px;
+    text-align: center;
+    margin-left: 300px;
+}
+
+.telefono {
+    height: 130px;
+    width: 130px;
+}
+.datos {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+width: 200px;
+margin-left: 450px;
+}
+
+.email {
+    height: 130px;
+    width: 130px;
+}
+.correo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 200px;
+        margin-left: 900px;
+}
+
+.numero{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.num {
+    font-weight: normal;
+    font-size: 15px;
+}
+
+.Contacto {
+    background-color: #242635;
+   padding:  50px 0;
+}
+
+
+.footer {
+    width: 100%;
+    height: 80px;
+    text-align: center;
+    background-color: #1F1D2C;
+    
+}
+
+.footer h3 {
+  line-height: 50px;
+    color: white;
+}
+.footer p{
+    background-color: transparent;
+    color: white;
+}
+
+.cuadrado-fondo1 {
+position: absolute;
+right: 0;
+width: 60%;
+}
+
+.rectangulo-alargado {
+position: absolute;
+left: 0;
+
+height: 420px;
+width: 33%;
+
+}
+
+.boton-hamburguesa{
+border: none;
+background: transparent;
+font-size: 25px;
+color: white;
+padding-right: 10px;
+display: none;
+}
+
+
+@media (min-width: 350px) and (max-width: 768px) {
+
+.header {
+    height: 60px;
+}
+
+.ul {
+
+    flex-direction: column;
+   background-color: darkslategray;
+  position: fixed;
+  width: 100%;
+  top: 60px;
+  align-items: center;
+  left: 100%;
+}
+
+.boton-hamburguesa{
+display: block;
+line-height: 60px;
+}
+
+.activarboton{
+left: 0;
+
+}
+
+.Nombre {
+    font-size: 50px;
+    font-weight: semi-bold;
+    padding-left: 10px;
+}
+
+.Subtitulo {
+    font-size: 25px;
+    font-weight: semi-bold;
+padding-left: 10px;
+}
+
+.aos{
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+.dos {
+    font-size: 20px;
+
+}
+
+.exp{
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+.linked {
+width: 35px;
+top: 240px;
+left: 30px;
+
+}
+
+.insta{
+width: 35px;
+top: 240px;
+left: 90px;
+}
+
+.twit{
+width: 35px;
+top: 240px;
+left: 150px;
+}
+
+.fotoequis{
+  position:absolute;
+ padding: 0;
+  top: 140px;
+  left: 200px;
+  width: 250px;
+}
+
+}
+
